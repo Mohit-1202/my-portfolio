@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import MyImage from '../assets/My_Image.png';
+import MyImage from '../assets/My_Image.jpg';
 import { ArrowRight, Download } from 'lucide-react';
 import MagneticEffect from './MagneticEffect';
 

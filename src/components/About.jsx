@@ -1,5 +1,5 @@
 import { Code, Server, Smartphone, Globe } from 'lucide-react';
-import AboutImg from '../assets/About_img.png';
+import AboutImg from '../assets/About_img.jpg';
 
 const About = () => {
   return (
