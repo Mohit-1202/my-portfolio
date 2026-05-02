@@ -20,26 +20,26 @@ const Projects = () => {
   }, [isExpanded]);
 
   const allProjects = [
+    // {
+    //   id: "01",
+    //   name: "AI Itinerary & Video Engine",
+    //   desc: "An advanced Generative AI tool that extracts complex travel itineraries from unstructured input and automatically synthesizes promotional videos using AI-driven visual assets.",
+    //   tech: ["Generative AI", "LLMs", "Node.js", "Video API"],
+    //   link: "#",
+    //   github: null,
+    //   img: "/Images/project_images/TubeVerse_img/TubeVerse_lg.jpg" // Placeholder for now
+    // },
+    // {
+    //   id: "02",
+    //   name: "FleetTrace Pro",
+    //   desc: "Enterprise-grade live location tracking system built for large-scale logistics. Features real-time synchronization with WebSockets and precise geospatial mapping.",
+    //   tech: ["Socket.io", "Google Maps API", "Node.js", "React Native"],
+    //   link: "#",
+    //   github: null,
+    //   img: "/Images/project_images/NewsMonkey_img/NewsMonkeylg_img.png" // Placeholder for now
+    // },
     {
       id: "01",
-      name: "AI Itinerary & Video Engine",
-      desc: "An advanced Generative AI tool that extracts complex travel itineraries from unstructured input and automatically synthesizes promotional videos using AI-driven visual assets.",
-      tech: ["Generative AI", "LLMs", "Node.js", "Video API"],
-      link: "#",
-      github: null,
-      img: "/Images/project_images/TubeVerse_img/TubeVerse_lg.jpg" // Placeholder for now
-    },
-    {
-      id: "02",
-      name: "FleetTrace Pro",
-      desc: "Enterprise-grade live location tracking system built for large-scale logistics. Features real-time synchronization with WebSockets and precise geospatial mapping.",
-      tech: ["Socket.io", "Google Maps API", "Node.js", "React Native"],
-      link: "#",
-      github: null,
-      img: "/Images/project_images/NewsMonkey_img/NewsMonkeylg_img.png" // Placeholder for now
-    },
-    {
-      id: "03",
       name: "TubeVerse",
       desc: "A YouTube-like web application developed using React, Tailwind CSS, Node.js, Express.js, and MongoDB. Users can watch, like, comment, and subscribe to channels.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
@@ -48,7 +48,7 @@ const Projects = () => {
       img: "/Images/project_images/TubeVerse_img/TubeVerse_lg.jpg"
     },
     {
-      id: "04",
+      id: "02",
       name: "QuickTasks",
       desc: "A MERN stack task management app that lets users create, update, delete, and track tasks with ease.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
@@ -57,7 +57,7 @@ const Projects = () => {
       img: "/Images/project_images/QuickTasks_img/QuickTasks_lg.jpg"
     },
     {
-      id: "05",
+      id: "03",
       name: "Eshop",
       desc: "An e-commerce website for selling electronic products focused on creating a user-friendly interface.",
       tech: ["React.js", "Tailwind CSS"],
@@ -120,7 +120,7 @@ const Projects = () => {
     //   img: "/Images/project_images/TreasureHunt_img/game_img.png"
     // },
     {
-      id: "4",
+      id: "04",
       name: "Hotel Midtown",
       desc: "Luxury hotel located in Gangtok. Offers modern design, refined comfort, high-speed Wi-Fi, and in-house dining.",
       tech: ["Client Project", "Hospitality"],
@@ -129,7 +129,7 @@ const Projects = () => {
       img: "/Images/project_images/MidTown_img/MidTownlg_img.png"
     },
     {
-      id: "5",
+      id: "05",
       name: "ANJ Group",
       desc: "Infrastructure & Urban Planning company with 25+ years experience. Delivered major projects including City Development Plans and Tourism Circuits.",
       tech: ["Client Project", "Corporate Portfolio"],
@@ -138,7 +138,7 @@ const Projects = () => {
       img: "/Images/project_images/Anj_img/Anjlg_img 10.28.40 AM.png"
     },
     {
-      id: "6",
+      id: "06",
       name: "SketchSync",
       desc: "Collaborative real-time drawing canvas with auto-save.",
       tech: ["React.js", "Fabric.js", "Firebase"],
@@ -147,7 +147,7 @@ const Projects = () => {
       img: "/Images/project_images/SketchSync_img/SketchSynclg_img.png"
     },
     {
-      id: "7",
+      id: "07",
       name: "Hygienx",
       desc: "Next-generation hygiene solutions company delivering eco-friendly, lab-tested products for homes, hotels, and healthcare.",
       tech: ["Client Project", "E-commerce"],
@@ -156,7 +156,7 @@ const Projects = () => {
       img: "/Images/project_images/Hygienx_img/hygienxlg_img 10.29.41 AM.png"
     },
     {
-      id: "8",
+      id: "08",
       name: "Falcon Office Solutions",
       desc: "Trusted leader in cleaning and hygiene solutions providing customized, eco-friendly facility management strategies.",
       tech: ["Client Project", "Corporate Website"],
@@ -165,7 +165,7 @@ const Projects = () => {
       img: "/Images/project_images/falcon_img/falconlg_img.png"
     },
     {
-      id: "9",
+      id: "09",
       name: "Aurinko Alpha Advantage Fund",
       desc: "SEBI-registered Alternative Investment Fund offering multi-strategy investment solutions for superior risk-adjusted returns.",
       tech: ["Client Project", "Financial Portal"],
