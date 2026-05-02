@@ -2,10 +2,11 @@ const Skills = () => {
   const groups = [
     { label: "Frontend", skills: ["React.js", "Tailwind CSS", "JavaScript", "HTML/CSS", "TypeScript", "Next.js"] },
     { label: "Backend", skills: ["Node.js", "Express.js", "REST APIs", "GraphQL"] },
+    { label: "AI & Real-time", skills: ["Generative AI", "LLMs", "Prompt Engineering", "WebSockets", "Socket.io"] },
     { label: "Mobile", skills: ["React Native", "iOS", "Android"] },
     { label: "Database", skills: ["MongoDB", "PostgreSQL", "Firebase"] },
     { label: "Cloud", skills: ["AWS", "Docker", "CI/CD", "Vercel"] },
-    { label: "Tools", skills: ["Git", "Figma", "Postman", "Jest"] }
+    { label: "Tools", skills: ["Git", "Figma", "Postman", "Google Maps API"] }
   ];
 
   return (
@@ -28,12 +29,11 @@ const Skills = () => {
               </div>
               
               {/* Tag Cloud */}
-              <div className="flex flex-wrap justify-center gap-4">
+              <div className="flex flex-wrap justify-center gap-4 w-full reveal-base" style={{ transitionDelay: `${groupIdx * 0.15}s` }}>
                 {group.skills.map((skill, skillIdx) => (
                   <div 
                     key={skillIdx}
-                    className="reveal-base px-6 py-3 bg-[#111111] border border-[#1f1f1f] rounded-full text-white font-medium shadow-lg hover:border-[#f59e0b] hover:shadow-[0_0_15px_rgba(245,158,11,0.3)] hover:text-[#f59e0b] transition-all duration-300 hover:scale-110 cursor-default"
-                    style={{ transitionDelay: `${(groupIdx * 0.1) + (skillIdx * 0.05)}s` }}
+                    className="px-6 py-3 bg-[#111111] border border-[#1f1f1f] rounded-full text-white font-medium shadow-lg hover:border-[#f59e0b] hover:shadow-[0_0_15px_rgba(245,158,11,0.3)] hover:text-[#f59e0b] transition-all duration-300 hover:scale-110 cursor-default"
                   >
                     {skill}
                   </div>
