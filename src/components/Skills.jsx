@@ -6,7 +6,7 @@ const Skills = () => {
     { label: "Mobile", skills: ["React Native", "iOS", "Android"] },
     { label: "Database", skills: ["MongoDB", "PostgreSQL", "Firebase"] },
     { label: "Cloud", skills: ["AWS", "Docker", "CI/CD", "Vercel"] },
-    { label: "Tools", skills: ["Git", "Figma", "Postman", "Google Maps API"] }
+    { label: "Architecture & Tools", skills: ["System Design", "Microservices", "Figma", "Postman", "Google Maps API"] }
   ];
 
   return (

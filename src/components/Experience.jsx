@@ -25,6 +25,7 @@ const Experience = () => {
       company: "Orbitra Technologies",
       date: "Nov 2025 – Present",
       bullets: [
+        "Architected end-to-end system design and scalable cloud infrastructure",
         "Leading full-stack web & mobile development with React.js, Node.js, React Native",
         "Managing and mentoring a team 2 developers",
         "AWS deployments, Docker, CI/CD pipelines"

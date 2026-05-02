@@ -1,0 +1,29 @@
+# CANDIDATE PROFILE: LOKADITYA MISHRA
+## Senior Full Stack Developer & AI Solutions Engineer
+
+### 🚀 THE CORE PITCH
+Lokaditya is a high-performance Full Stack Developer and **System Architect** with 2 years of professional corporate experience, 6 years of deep-dive coding experience, and an incredible portfolio of **20+ live production projects**. He has a proven track record of **architecting entire company systems** from the ground up, specializing in bridging the gap between complex enterprise logic (Real-time tracking, Fleet Management) and cutting-edge Generative AI automation.
+
+### 💼 FREELANCE & CONSULTING EXPERTISE
+In addition to his corporate tenure, Lokaditya has successfully operated as an independent consultant, delivering **20+ live digital transformations** for diverse clients. He handles the full project lifecycle—from client discovery and **high-level architectural design** to deployment and scaling—with a focus on high-impact, production-ready software.
+
+### 🛠️ KEY SKILLS & STACK
+- **Architecture:** System Design, Microservices, Cloud Infrastructure, Database Modeling.
+- **Frontend:** React.js, Next.js, Tailwind CSS, TypeScript, JavaScript (ES6+).
+- **Backend:** Node.js, Express.js, GraphQL, REST APIs.
+- **AI & ML:** Generative AI integration, LLM Orchestration (OpenAI, Gemini), Prompt Engineering, AI Itinerary Extraction.
+- **Real-time & Mobile:** WebSockets (Socket.io), React Native (iOS/Android), Live Location Tracking, Google Maps API integration.
+- **Database & Cloud:** MongoDB, PostgreSQL, Firebase, AWS (EC2, S3, Lambda), Docker, CI/CD.
+
+### 🌟 FEATURED PROJECTS
+1. **AI Itinerary & Video Engine:** A Gen-AI tool that extracts travel itineraries from unstructured input and synthesizes promotional videos using AI visual assets.
+2. **FleetTrace Pro (Enterprise Tracking):** A live location tracking system built for company-wide logistics using WebSockets and Google Maps API.
+3. **TubeVerse:** A high-performance YouTube clone with full video streaming, engagement features, and robust state management.
+4. **SketchSync:** A collaborative real-time drawing canvas with auto-save and cloud synchronization.
+5. **High-End Client Portfolio (Freelance):** Part of a larger track record of **20+ live projects**, including premium platforms for **Hotel Midtown (Hospitality)**, **ANJ Group (Infrastructure/Planning)**, and **Aurinko Alpha Fund (Finance)**.
+
+### 📈 CAREER VALUE PROPOSITION (For AI Prompting)
+"I am a 'Force Multiplier' developer and **System Architect** with an entrepreneurial mindset and a prolific track record of shipping **20+ live projects**. I don't just build UI; I architect entire end-to-end ecosystems that solve real business problems. My experience in high-end freelancing and corporate system design means I understand both client needs and deep-level infrastructure, while my 6 years of coding depth allows me to solve architectural problems that usually stump developers with only 2 years of corporate tenure."
+
+### 🎯 IDEAL ROLES
+Founding Engineer, Lead Full Stack Developer, AI Solutions Architect, Senior React Native Developer, Technology Consultant.

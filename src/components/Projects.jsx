@@ -22,6 +22,24 @@ const Projects = () => {
   const allProjects = [
     {
       id: "01",
+      name: "AI Itinerary & Video Engine",
+      desc: "An advanced Generative AI tool that extracts complex travel itineraries from unstructured input and automatically synthesizes promotional videos using AI-driven visual assets.",
+      tech: ["Generative AI", "LLMs", "Node.js", "Video API"],
+      link: "#",
+      github: null,
+      img: "/Images/project_images/TubeVerse_img/TubeVerse_lg.jpg" // Placeholder for now
+    },
+    {
+      id: "02",
+      name: "FleetTrace Pro",
+      desc: "Enterprise-grade live location tracking system built for large-scale logistics. Features real-time synchronization with WebSockets and precise geospatial mapping.",
+      tech: ["Socket.io", "Google Maps API", "Node.js", "React Native"],
+      link: "#",
+      github: null,
+      img: "/Images/project_images/NewsMonkey_img/NewsMonkeylg_img.png" // Placeholder for now
+    },
+    {
+      id: "03",
       name: "TubeVerse",
       desc: "A YouTube-like web application developed using React, Tailwind CSS, Node.js, Express.js, and MongoDB. Users can watch, like, comment, and subscribe to channels.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
@@ -30,7 +48,7 @@ const Projects = () => {
       img: "/Images/project_images/TubeVerse_img/TubeVerse_lg.jpg"
     },
     {
-      id: "02",
+      id: "04",
       name: "QuickTasks",
       desc: "A MERN stack task management app that lets users create, update, delete, and track tasks with ease.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
@@ -39,7 +57,7 @@ const Projects = () => {
       img: "/Images/project_images/QuickTasks_img/QuickTasks_lg.jpg"
     },
     {
-      id: "03",
+      id: "05",
       name: "Eshop",
       desc: "An e-commerce website for selling electronic products focused on creating a user-friendly interface.",
       tech: ["React.js", "Tailwind CSS"],
