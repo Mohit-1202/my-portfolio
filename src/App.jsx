@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Contact, { Footer } from './components/Contact';
+import Preloader from './components/Preloader';
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <div className="bg-[#080808] min-h-screen text-[#a1a1aa] font-sans selection:bg-[#f59e0b] selection:text-[#080808] relative">
+      <Preloader />
       <CustomCursor />
       <Navbar />
       

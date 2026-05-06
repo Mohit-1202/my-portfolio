@@ -1,5 +1,6 @@
 import { Code, Server, Smartphone, Globe } from 'lucide-react';
 import AboutImg from '../assets/About_img.jpg';
+import Image from './Image';
 
 const About = () => {
   return (
@@ -43,7 +44,7 @@ const About = () => {
           <div className="reveal-right relative">
             <div className="w-full max-w-md mx-auto rounded-2xl overflow-hidden glass-card border border-[#1f1f1f] p-2 sm:p-4">
               <div className="w-full aspect-[4/5] bg-[#111111] rounded-xl flex items-center justify-center border border-[#1f1f1f] relative overflow-hidden group">
-                <img 
+                <Image 
                   src={AboutImg} 
                   alt="Lokaditya Mishra" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import MyImage from '../assets/My_Image.jpg';
 import { ArrowRight, Download } from 'lucide-react';
 import MagneticEffect from './MagneticEffect';
+import Image from './Image';
 
 const Hero = () => {
   const [projects, setProjects] = useState(0);
@@ -95,10 +96,12 @@ const Hero = () => {
               <div className="absolute inset-0 border border-[#f59e0b] rounded-full opacity-0" style={{ animation: 'radar-ring 4s infinite ease-out 2.6s' }}></div>
               
               <div className="relative z-10 w-full h-full animate-float-avatar rounded-full overflow-hidden border-4 border-[#1f1f1f] shadow-[0_0_50px_rgba(245,158,11,0.2)] bg-[#111111]">
-                <img 
+                <Image 
                   src={MyImage} 
                   alt="Lokaditya Mishra" 
                   className="w-full h-full object-cover"
+                  loading="eager"
+                  fetchpriority="high"
                 />
               </div>
             </div>

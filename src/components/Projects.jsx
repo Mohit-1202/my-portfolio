@@ -1,5 +1,6 @@
 import { ExternalLink, Code, ChevronDown, ChevronUp } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import Image from './Image';
 
 const Projects = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -277,7 +278,7 @@ const Projects = () => {
                       {/* Window Content (Image) */}
                       <div className="flex-1 w-full relative">
                         {/* We use a standard img tag; if the path is invalid it will fallback using onError */}
-                        <img
+                        <Image
                           src={`${import.meta.env.BASE_URL}${project.img.startsWith('/') ? project.img.slice(1) : project.img}`}
                           alt={project.name}
                           className="absolute inset-0 w-full h-full object-cover object-top z-10 transition-transform duration-700 group-hover:scale-105"
