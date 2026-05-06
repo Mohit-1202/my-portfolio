@@ -196,12 +196,12 @@ const Projects = () => {
   const displayedProjects = isExpanded ? allProjects : allProjects.slice(0, 5);
 
   return (
-    <section id="projects" className="py-32 relative z-40 min-h-screen border-t border-[#1f1f1f] bg-[#080808] shadow-[0_-20px_50px_rgba(0,0,0,0.8)]">
+    <section id="projects" className="py-32 relative z-40 min-h-screen border-t border-[#1f1f1f] bg-[#080808] shadow-[0_-20px_50px_rgba(0,0,0,0.8)] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="mb-24 reveal-base">
+        <div className="mb-24 reveal-base text-center lg:text-left">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Work I've Shipped</h2>
-          <div className="w-24 h-1 bg-[#f59e0b] rounded-full"></div>
+          <div className="w-24 h-1 bg-[#f59e0b] rounded-full mx-auto lg:mx-0"></div>
         </div>
 
         <div className="space-y-32 mb-24">
@@ -211,7 +211,7 @@ const Projects = () => {
               <div key={idx} className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12 lg:gap-20`}>
 
                 {/* Text Content */}
-                <div className={`w-full lg:w-1/2 ${isEven ? 'reveal-left' : 'reveal-right'}`}>
+                <div className={`w-full lg:w-1/2 flex flex-col items-center text-center lg:items-start lg:text-left ${isEven ? 'reveal-left' : 'reveal-right'}`}>
                   <span className="text-[120px] font-display font-bold text-[#1f1f1f] leading-none absolute -z-10 -mt-16 -ml-4 opacity-50 select-none">
                     {project.id}
                   </span>
@@ -220,7 +220,7 @@ const Projects = () => {
                     <p className="text-[#a1a1aa] text-lg leading-relaxed">{project.desc}</p>
                   </div>
 
-                  <div className="flex flex-wrap gap-3 mb-8 relative z-10">
+                  <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-8 relative z-10">
                     {project.tech.map((t, i) => (
                       <span key={i} className="px-3 py-1 bg-[#f59e0b]/10 border border-[#f59e0b]/20 rounded text-sm font-medium text-[#f59e0b]">
                         {t}
@@ -228,7 +228,7 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  <div className="flex items-center gap-6 relative z-10">
+                  <div className="flex items-center justify-center lg:justify-start gap-6 relative z-10">
                     {project.link !== '#' && (
                       <a
                         href={project.link}

@@ -8,11 +8,11 @@ const About = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
-          <div className="reveal-left">
+          <div className="reveal-left text-center lg:text-left">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">
               My <span className="text-[#f59e0b]">Story</span>
             </h2>
-            <div className="w-24 h-1 bg-[#f59e0b] rounded-full mb-8"></div>
+            <div className="w-24 h-1 bg-[#f59e0b] rounded-full mb-8 mx-auto lg:mx-0"></div>
             
             <div className="space-y-6 text-lg text-[#a1a1aa] leading-relaxed">
               <p>
@@ -26,13 +26,13 @@ const About = () => {
               </p>
             </div>
             
-            <div className="mt-10 grid grid-cols-2 gap-6">
-              <div className="glass-card p-5 rounded-xl border border-[#1f1f1f] hover:border-[#f59e0b]/50 transition-colors">
+            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="glass-card p-5 rounded-xl border border-[#1f1f1f] hover:border-[#f59e0b]/50 transition-colors flex flex-col items-center lg:items-start">
                 <Globe className="text-[#f59e0b] mb-3" size={28} />
                 <h4 className="text-white font-bold mb-1">Frontend Engineering</h4>
                 <p className="text-sm text-[#a1a1aa]">React, Vue, Tailwind CSS</p>
               </div>
-              <div className="glass-card p-5 rounded-xl border border-[#1f1f1f] hover:border-[#f59e0b]/50 transition-colors">
+              <div className="glass-card p-5 rounded-xl border border-[#1f1f1f] hover:border-[#f59e0b]/50 transition-colors flex flex-col items-center lg:items-start">
                 <Server className="text-[#f59e0b] mb-3" size={28} />
                 <h4 className="text-white font-bold mb-1">Backend & Cloud</h4>
                 <p className="text-sm text-[#a1a1aa]">Node.js, AWS, MongoDB</p>

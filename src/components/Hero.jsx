@@ -40,7 +40,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           
-          <div className="w-full lg:w-[60%] flex flex-col items-start text-left">
+          <div className="w-full lg:w-[60%] flex flex-col items-center text-center lg:items-start lg:text-left">
             
             <div className="reveal-base animate-fade-up inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#f59e0b]/30 bg-[#f59e0b]/5 mb-8">
               <div className="w-2 h-2 rounded-full bg-[#f59e0b] animate-pulse-glow" />
@@ -57,7 +57,7 @@ const Hero = () => {
               I'm Lokaditya Mishra, a Senior Full Stack Developer with <span className="text-white font-bold">5+ years of experience</span>. I specialize in building world-class web applications, high-performance mobile apps, and scalable cloud architectures.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center animate-cinematic mb-16 mt-10" style={{ animationDelay: '0.9s' }}>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start animate-cinematic mb-16 mt-10" style={{ animationDelay: '0.9s' }}>
               <MagneticEffect>
                 <a 
                   href="#projects" 
@@ -68,19 +68,9 @@ const Hero = () => {
                   <ArrowRight className="relative z-10 group-hover:translate-x-1 transition-transform" />
                 </a>
               </MagneticEffect>
-              
-              <MagneticEffect>
-                <a 
-                  href="/resume.pdf" 
-                  className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#111111] border border-[#1f1f1f] text-white rounded-full font-bold text-lg hover:border-[#f59e0b] hover:text-[#f59e0b] transition-all duration-300 hover:scale-105"
-                >
-                  <Download className="group-hover:-translate-y-1 transition-transform" />
-                  <span>Download Resume</span>
-                </a>
-              </MagneticEffect>
             </div>
 
-            <div className="flex flex-wrap gap-8 reveal-base animate-fade-up border-t border-[#1f1f1f] pt-8 w-full" style={{ animationDelay: '0.8s' }}>
+            <div className="flex flex-wrap justify-center lg:justify-start gap-8 reveal-base animate-fade-up border-t border-[#1f1f1f] pt-8 w-full text-center lg:text-left" style={{ animationDelay: '0.8s' }}>
               <div>
                 <h4 className="text-4xl font-display font-bold text-white mb-1">{projects}+</h4>
                 <p className="text-sm text-[#a1a1aa]">Shipped Projects</p>

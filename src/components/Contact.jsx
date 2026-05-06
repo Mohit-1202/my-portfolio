@@ -132,9 +132,9 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6 reveal-right flex flex-col justify-center">
-            <a href="mailto:mohitmishrak47@gmail.com" className="glass-card p-6 rounded-2xl flex items-center gap-6 group hover:border-[#f59e0b] transition-all hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-              <div className="w-14 h-14 rounded-full bg-[#f59e0b]/10 flex items-center justify-center group-hover:bg-[#f59e0b] transition-colors">
+          <div className="space-y-6 reveal-right flex flex-col justify-center items-center lg:items-stretch">
+            <a href="mailto:mohitmishrak47@gmail.com" className="w-full glass-card p-6 rounded-2xl flex flex-col sm:flex-row items-center gap-6 group hover:border-[#f59e0b] transition-all hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] text-center sm:text-left">
+              <div className="w-14 h-14 rounded-full bg-[#f59e0b]/10 flex items-center justify-center group-hover:bg-[#f59e0b] transition-colors shrink-0">
                 <Mail className="text-[#f59e0b] group-hover:text-black transition-colors" />
               </div>
               <div>
@@ -143,8 +143,8 @@ const Contact = () => {
               </div>
             </a>
             
-            <a href="tel:+918291027803" className="glass-card p-6 rounded-2xl flex items-center gap-6 group hover:border-[#f59e0b] transition-all hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-              <div className="w-14 h-14 rounded-full bg-[#f59e0b]/10 flex items-center justify-center group-hover:bg-[#f59e0b] transition-colors">
+            <a href="tel:+918291027803" className="w-full glass-card p-6 rounded-2xl flex flex-col sm:flex-row items-center gap-6 group hover:border-[#f59e0b] transition-all hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] text-center sm:text-left">
+              <div className="w-14 h-14 rounded-full bg-[#f59e0b]/10 flex items-center justify-center group-hover:bg-[#f59e0b] transition-colors shrink-0">
                 <Phone className="text-[#f59e0b] group-hover:text-black transition-colors" />
               </div>
               <div>
@@ -153,8 +153,8 @@ const Contact = () => {
               </div>
             </a>
             
-            <div className="glass-card p-6 rounded-2xl flex items-center gap-6 group hover:border-[#f59e0b] transition-all hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] cursor-default">
-              <div className="w-14 h-14 rounded-full bg-[#f59e0b]/10 flex items-center justify-center group-hover:bg-[#f59e0b] transition-colors">
+            <div className="w-full glass-card p-6 rounded-2xl flex flex-col sm:flex-row items-center gap-6 group hover:border-[#f59e0b] transition-all hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] cursor-default text-center sm:text-left">
+              <div className="w-14 h-14 rounded-full bg-[#f59e0b]/10 flex items-center justify-center group-hover:bg-[#f59e0b] transition-colors shrink-0">
                 <MapPin className="text-[#f59e0b] group-hover:text-black transition-colors" />
               </div>
               <div>
@@ -172,13 +172,13 @@ const Contact = () => {
 };
 
 export const Footer = () => (
-  <footer className="relative bg-[#080808]">
+  <footer className="relative bg-[#080808] w-full overflow-hidden">
     <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#f59e0b] to-transparent opacity-50"></div>
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
-      <div className="text-[#a1a1aa]">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      <div className="text-[#a1a1aa] text-sm">
         © {new Date().getFullYear()} Lokaditya Mishra
       </div>
-      <div className="text-sm font-medium text-[#f59e0b] tracking-wider uppercase">
+      <div className="text-xs sm:text-sm font-medium text-[#f59e0b] tracking-wider uppercase">
         Designed & Built by Lokaditya Mishra
       </div>
       <div className="flex gap-6 text-[#a1a1aa]">
