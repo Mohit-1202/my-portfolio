@@ -18,7 +18,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="relative lg:sticky lg:top-0 min-h-screen z-10 flex items-center justify-center overflow-hidden bg-[#080808] pt-32 pb-20 lg:py-0 shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
+    <section id="home" className="relative lg:sticky lg:top-0 min-h-screen z-10 flex items-center justify-center overflow-hidden bg-[#080808] pt-28 pb-28 lg:pt-14 lg:pb-24 shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
       
       {/* Background Particles */}
       <div className="absolute inset-0 pointer-events-none z-0">
@@ -43,22 +43,25 @@ const Hero = () => {
           
           <div className="w-full lg:w-[60%] flex flex-col items-center text-center lg:items-start lg:text-left">
             
-            <div className="reveal-base animate-fade-up inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#f59e0b]/30 bg-[#f59e0b]/5 mb-8">
-              <div className="w-2 h-2 rounded-full bg-[#f59e0b] animate-pulse-glow" />
-              <span className="text-[#f59e0b] text-sm font-medium tracking-wide">Available for Collaboration</span>
+            <div className="reveal-base animate-fade-up inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-green-500/30 bg-green-500/10 mb-6">
+              <span className="relative flex h-2.5 w-2.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#22c55e] animate-pulse-glow"></span>
+              </span>
+              <span className="text-green-400 text-sm font-medium tracking-wide">Available for Collaboration</span>
             </div>
             
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-bold text-white leading-[1.1] mb-6">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-[5.25rem] font-display font-bold text-white leading-[1.08] mb-5">
               <span className="block animate-cinematic" style={{ animationDelay: '0.1s' }}>Crafting</span>
               <span className="block animate-cinematic text-[#f59e0b] text-glow" style={{ animationDelay: '0.4s' }}>Premium Digital</span>
               <span className="block animate-cinematic" style={{ animationDelay: '0.7s' }}>Experiences.</span>
             </h1>
             
-            <p className="text-xl text-[#a1a1aa] max-w-xl leading-relaxed text-balance reveal-base animate-fade-up" style={{ animationDelay: '0.4s' }}>
+            <p className="text-lg sm:text-xl text-[#a1a1aa] max-w-xl leading-relaxed text-balance reveal-base animate-fade-up" style={{ animationDelay: '0.4s' }}>
               I'm Lokaditya Mishra, a Senior Full Stack Developer with <span className="text-white font-bold">5+ years of experience</span>. I specialize in building world-class web applications, high-performance mobile apps, and scalable cloud architectures.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start animate-cinematic mb-16 mt-10" style={{ animationDelay: '0.9s' }}>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start animate-cinematic mb-10 mt-8" style={{ animationDelay: '0.9s' }}>
               <MagneticEffect>
                 <a 
                   href="#projects" 
@@ -71,7 +74,7 @@ const Hero = () => {
               </MagneticEffect>
             </div>
 
-            <div className="flex flex-wrap justify-center lg:justify-start gap-8 reveal-base animate-fade-up border-t border-[#1f1f1f] pt-8 w-full text-center lg:text-left" style={{ animationDelay: '0.8s' }}>
+            <div className="flex flex-wrap justify-center lg:justify-start gap-8 reveal-base animate-fade-up border-t border-[#1f1f1f] pt-6 w-full text-center lg:text-left" style={{ animationDelay: '0.8s' }}>
               <div>
                 <h4 className="text-4xl font-display font-bold text-white mb-1">{projects}+</h4>
                 <p className="text-sm text-[#a1a1aa]">Shipped Projects</p>
@@ -110,8 +113,8 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Sticky Fade out layer */}
-      <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-[#080808] to-transparent z-20 pointer-events-none"></div>
+      {/* Sticky Fade out layer (kept behind hero content so stats stay sharp) */}
+      <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-[#080808] to-transparent z-0 pointer-events-none"></div>
     </section>
   );
 };

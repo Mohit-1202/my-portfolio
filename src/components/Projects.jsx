@@ -122,6 +122,15 @@ const Projects = () => {
     // },
     {
       id: "04",
+      name: "East Himalayan Tours & Travels",
+      desc: "Gangtok-based travel company with 12+ years of experience specializing in car rentals, tour operations, and customized journeys across Sikkim, Darjeeling, and Kalimpong. Registered under Sikkim Registration of Tourist Trade Rules, 2025, delivering reliable transportation and thoughtfully planned Himalayan holidays.",
+      tech: ["Client Project", "Travel & Tourism"],
+      link: "https://www.easthimalayantours.com/",
+      github: null,
+      img: "/Images/project_images/EastHimalayas_img/EastHimalayas_lg.png"
+    },
+    {
+      id: "05",
       name: "Hotel Midtown",
       desc: "Luxury hotel located in Gangtok. Offers modern design, refined comfort, high-speed Wi-Fi, and in-house dining.",
       tech: ["Client Project", "Hospitality"],
@@ -130,7 +139,7 @@ const Projects = () => {
       img: "/Images/project_images/MidTown_img/MidTownlg_img.png"
     },
     {
-      id: "05",
+      id: "06",
       name: "ANJ Group",
       desc: "Infrastructure & Urban Planning company with 25+ years experience. Delivered major projects including City Development Plans and Tourism Circuits.",
       tech: ["Client Project", "Corporate Portfolio"],
@@ -139,7 +148,7 @@ const Projects = () => {
       img: "/Images/project_images/Anj_img/Anjlg_img 10.28.40 AM.png"
     },
     {
-      id: "06",
+      id: "07",
       name: "SketchSync",
       desc: "Collaborative real-time drawing canvas with auto-save.",
       tech: ["React.js", "Fabric.js", "Firebase"],
@@ -148,7 +157,7 @@ const Projects = () => {
       img: "/Images/project_images/SketchSync_img/SketchSynclg_img.png"
     },
     {
-      id: "07",
+      id: "08",
       name: "Hygienx",
       desc: "Next-generation hygiene solutions company delivering eco-friendly, lab-tested products for homes, hotels, and healthcare.",
       tech: ["Client Project", "E-commerce"],
@@ -157,7 +166,7 @@ const Projects = () => {
       img: "/Images/project_images/Hygienx_img/hygienxlg_img 10.29.41 AM.png"
     },
     {
-      id: "08",
+      id: "09",
       name: "Falcon Office Solutions",
       desc: "Trusted leader in cleaning and hygiene solutions providing customized, eco-friendly facility management strategies.",
       tech: ["Client Project", "Corporate Website"],
@@ -166,7 +175,7 @@ const Projects = () => {
       img: "/Images/project_images/falcon_img/falconlg_img.png"
     },
     {
-      id: "09",
+      id: "10",
       name: "Aurinko Alpha Advantage Fund",
       desc: "SEBI-registered Alternative Investment Fund offering multi-strategy investment solutions for superior risk-adjusted returns.",
       tech: ["Client Project", "Financial Portal"],
@@ -175,7 +184,7 @@ const Projects = () => {
       img: "/Images/project_images/aurinko_img/aurinkolg_img.png"
     },
     {
-      id: "10",
+      id: "11",
       name: "Mumbadevi Industries",
       desc: "Premier printing industry name since 2004, providing high-end quality print services with advanced industrial craftsmanship.",
       tech: ["Client Project", "Corporate Portfolio"],
@@ -184,7 +193,7 @@ const Projects = () => {
       img: "/Images/project_images/mumbadevi_img/mumbadevilg_img.png"
     },
     {
-      id: "11",
+      id: "12",
       name: "iNotebook",
       desc: "A full-stack web application developed using MongoDB and Node.js. Users can create an account, log in, and add notes from anywhere, anytime.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
